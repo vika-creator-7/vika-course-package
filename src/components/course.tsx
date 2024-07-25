@@ -9,7 +9,7 @@ export default function Course() {
 		<section className='bg-white py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container p-0'>
 				<MainTitle
-					text='Цей курс – допоміг багатьом експертам'
+					text='Цей курс – ДОПОМОЖЕ БАГАТЬОМ ЕКСПЕРТАМ'
 					className='text-black text-center mb-[30px]'
 				/>
 
@@ -38,7 +38,7 @@ export default function Course() {
 						/>
 						<div className='2xl:text-[30px] lg:text-[26px] text-[20px] lg:max-w-[680px] max-w-[520px] w-[100%] lg:pb-[52px] pb-[35px] pl-[10px]'>
 							{' '}
-							Почати цінувати себе та збільшити прайс на послуги і продукти
+							Легко доносити клієнтам цінність своїх продуктів і послуг
 						</div>
 					</div>
 					<div className='flex'>
@@ -51,8 +51,7 @@ export default function Course() {
 						/>
 						<div className='2xl:text-[30px] lg:text-[26px] text-[20px] lg:max-w-[680px] max-w-[520px] w-[100%] pl-[10px]'>
 							{' '}
-							Запустити курс або менторство і збільшити свій дохід в 2-3 рази
-							більше
+							Збільшити продажі і прайс на послуги та продукти
 						</div>
 					</div>
 				</div>

@@ -8,13 +8,9 @@ export default function ExpertsReviews() {
 		<section className='bg-white py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container p-0'>
 				<h2
-					className={`text-[28px] max-w-[900px] 2xl:max-w-[1400px] sm:text-[36px] xl:text-[46px] 2xl:text-[65px] text-black text-center leading-[46px] font-bold 2xl:leading-[80px] uppercase m-auto mb-[50px] lg:mb-[100px] ${raleway.className}`}
+					className={`text-[28px] max-w-[900px] 2xl:max-w-[1400px] sm:text-[36px] xl:text-[46px] 2xl:text-[65px] text-black text-center leading-[46px] font-bold 2xl:leading-[80px] uppercase m-auto mb-[50px] xl:mb-[100px] ${raleway.className}`}
 				>
-					Приклади експертів, які
-					<span className='text-[#e1a421] ml-[10px]'>знайшли напрям та</span>
-					
-					<span className='text-[#e1a421] ml-[10px]'>монетизували </span>
-					власний досвід та таланти
+					Приклади експертів
 				</h2>
 
 				<div>
