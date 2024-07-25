@@ -7,10 +7,10 @@ export default function FirstScreen() {
 		<section className='lg:relative container pt-[50px] lg:py-[60px] px-[20px] xl:py-[80px] bg-cover bg-no-repeat bg-center flex-col lg:flex-row flex text-white items-center '>
 			<div className='lg:w-[600px] order-2 lg:order-none'>
 				<Image
-					src='/first-screen.png'
-					className='lg:!absolute lg:bottom-0 max-w-[300px] xl:max-w-[400px]'
+					src='/first-screen.jpg'
+					className='max-w-[300px] sm:max-w-[400px] xl:max-w-[500px]'
 					alt='main'
-					width={400}
+					width={500}
 					height={400}
 				/>
 			</div>
