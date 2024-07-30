@@ -9,7 +9,7 @@ export default function Course() {
 		<section className='bg-white py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container p-0'>
 				<MainTitle
-					text='Цей курс – ДОПОМОЖЕ БАГАТЬОМ ЕКСПЕРТАМ'
+					text='Цей курс – ДОПОМОЖЕ ТОБІ'
 					className='text-black text-center mb-[30px]'
 				/>
 
