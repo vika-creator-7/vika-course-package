@@ -27,11 +27,8 @@ export default function AboutMe() {
 							даний курс буде приносити експерту від 700 000 грн на місяць.
 						</div>
 						<div className='mt-[30px] xl:mt-[60px] text-[18px] lg:text-[23px] 2xl:text-[28px] italic'>
-							До кінця 2024 року я планую допомогти 1000+ експертам зробити
-							запуски продуктів і послугі заробляти на своїх талантах, тому
-							<span className='text-[#E1A421] ml-[6px]'>
-								ти можеш розраховувати на свій результат.
-							</span>
+							<span className='text-[#E1A421] mr-[8px]'>Моя міссія</span>
+							допомагати експертам реалізовувати свій потенціал
 						</div>
 					</div>
 					<div className='lg:hidden lg:order-none order-1'>

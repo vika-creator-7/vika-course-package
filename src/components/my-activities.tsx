@@ -8,7 +8,7 @@ export default function MyActivities() {
 			<div className='container p-0'>
 				<MainTitle text='Моя діяльність в цифрах' className='text-center' />
 
-				<div className='flex justify-around items-end xl:items-center flex-wrap mt-[50px] md:mt-[100px]'>
+				<div className='flex justify-around items-end xl:items-baseline flex-wrap mt-[50px] md:mt-[100px]'>
 					{/* 1 */}
 					<div className='lg:max-w-[400px] max-w-[345px] w-[100%] mb-[40px]'>
 						<div
@@ -17,7 +17,7 @@ export default function MyActivities() {
 							700 000
 						</div>
 						<div className='text-center xl:text-[28px] lg:text-[23px] text-[20px] text-white leading-[normal]'>
-							грн оберту на місяць кращої воронки
+							грн на місяць обігу кращої воронки
 						</div>
 					</div>
 					{/* 2 */}

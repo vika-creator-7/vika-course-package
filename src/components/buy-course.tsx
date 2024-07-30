@@ -10,12 +10,18 @@ export default function BuyCourse() {
 				<div className='max-w-[600px] mr-[20px] items-center lg:items-start flex flex-col'>
 					<MainTitle
 						text='Доєднатись до експрес курсу за'
-						className='xl:mb-[100px] lg:mb-[60px] !leading-normal text-center lg:text-start'
+						className='xl:mb-[60px] lg:mb-[40px] !leading-normal text-center lg:text-start'
 					/>
-					<div className='mt-[10px] lg:text-[70px] text-[50px] xl:text-[100px] text-[#e1a421] font-bold'>
+					<s className='lg:text-[45px] text-[35px] mt-[30px] xl:mt-[60px] block text-white'>
+						1250 грн
+					</s>
+					<div className='lg:text-[70px] text-[50px] xl:text-[100px] text-[#e1a421] font-bold'>
 						280 грн
 					</div>
-					<ByCourseBtn text='Записатись на курс' className='py-[20px] px-[15px] lg:px-[30px] mt-[20px] lg:mt-[50px] text-[22px] text-black lg:text-[30px] bg-white hover:bg-[#e1a421]'/>
+					<ByCourseBtn
+						text='Записатись на курс'
+						className='py-[20px] px-[15px] lg:px-[30px] mt-[20px] lg:mt-[50px] text-[22px] text-black lg:text-[30px] bg-white hover:bg-[#e1a421]'
+					/>
 				</div>
 				<div className='flex flex-col items-center max-w-[600px]'>
 					<div className='text-center mb-[10px] text-[22px] lg:text-[30px] xl:text-[45px] text-white lg:mt-0 mt-[40px]'>
