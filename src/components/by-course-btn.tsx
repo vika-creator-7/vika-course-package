@@ -11,8 +11,7 @@ import {
 } from './ui/dialog'
 import { Input } from './ui/input'
 
-const PAYMENTLINK =
-	'https://secure.wayforpay.com/page?vkh=6692af2d-9988-4372-857a-02cc22d1dba8'
+const PAYMENTLINK = 'https://secure.wayforpay.com/button/ba4197d3861cf'
 
 type ByCourseBtn = {
 	text: string
