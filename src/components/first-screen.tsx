@@ -16,7 +16,7 @@ export default function FirstScreen() {
 			</div>
 			<div className='lg:w-[650px] xl:w-[800px] justify-end text-white order-1 lg:order-none '>
 				<div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
-					Старт 10 серпня
+					Старт 15 серпня
 				</div>
 				<MainTitle text='Експрес курс:' className='text-[#E1A421] mb-[10px]' />
 				<h2 className='2xl:leading-[52px] leading-[35px] xl:leading-[50px] text-[23px] sm:text-[32px] xl:text-[40px] 2xl:text-[46px] uppercase font-bold'>

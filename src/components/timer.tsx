@@ -10,7 +10,7 @@ type TimeRemainingType = {
 }
 
 const Timer = () => {
-	const countdownDate = new Date('August 10, 2024 00:00:00 GMT+00:00').getTime()
+	const countdownDate = new Date('August 15, 2024 00:00:00 GMT+00:00').getTime()
 	const [timeRemaining, setTimeRemaining] = useState<TimeRemainingType>()
 
 	useEffect(() => {

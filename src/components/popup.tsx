@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import ByCourseBtn from './by-course-btn'
 
 const Popup = () => {
 	const [visible, setVisible] = useState(false)
@@ -9,7 +10,7 @@ const Popup = () => {
 		const timer = setTimeout(() => {
 			setVisible(true)
 			document.body.style.overflow = 'hidden'
-		}, 5000) //
+		}, 120000) //
 
 		return () => {
 			clearTimeout(timer)
@@ -37,6 +38,10 @@ const Popup = () => {
 				<p className='md:text-[25px] text-[18px]'>
 					Як упаковати блог в Інстаграм з нуля — покроковий гайд
 				</p>
+				<ByCourseBtn
+					text='Взяти Участь'
+					className='flex m-auto mt-[20px] bg-white text-[#E1A421] py-[15px] px-[15px] xl:px-[30px] text-center text-[22px] xl:text-[28px]'
+				/>
 			</div>
 		</div>
 	)
