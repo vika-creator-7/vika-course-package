@@ -24,7 +24,7 @@ export default function Home() {
 			<AboutMe />
 			<Program />
 			<ExpertsReviews />
-			<Reviews />
+			{/* <Reviews /> */}
 			<HowCourseGoes />
 			<Faq />
 			<CourseFor />

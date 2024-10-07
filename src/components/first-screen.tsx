@@ -16,9 +16,9 @@ export default function FirstScreen() {
 			</div>
 			<div className='lg:w-[650px] xl:w-[800px] justify-end text-white order-1 lg:order-none '>
 				<div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
-					Старт 15 серпня
+					Старт 29 жовтня
 				</div>
-				<MainTitle text='Експрес курс:' className='text-[#E1A421] mb-[10px]' />
+				<MainTitle text='3 ДЕННИЙ ІНТЕНСИВ' className='text-[#E1A421] mb-[10px]' />
 				<h2 className='2xl:leading-[52px] leading-[35px] xl:leading-[50px] text-[23px] sm:text-[32px] xl:text-[40px] 2xl:text-[46px] uppercase font-bold'>
 					Як експерту створити продаючу упаковку під свої продукти та послуги?
 				</h2>
@@ -26,9 +26,9 @@ export default function FirstScreen() {
 					6 кроків, які допоможуть тобі донести цінність твоїх продуктів та
 					послуг і збільшити продажі
 				</div>
-				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>1250 грн</s>
+				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>1780 грн</s>
 				<div className=' lg:text-[70px] text-[38px] text-[#e1a421] font-bold'>
-					280 грн
+					390 грн
 				</div>
 				<ByCourseBtn
 					text='Взяти Участь'
@@ -36,7 +36,7 @@ export default function FirstScreen() {
 				/>
 
 				<div className='lg:text-[20px] text-[18px] xl:text-[25px] lg:w-[500px] mt-[40px] mb-[40px] lg:mb-0'>
-					Зареєструйся на курс та отримай
+					Зареєструйся на інтенсив та отримай
 					<span className='uppercase text-[#e1a421] font-bold ml-[8px]'>
 						Подарунок!
 					</span>

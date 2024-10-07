@@ -10,7 +10,7 @@ export default function HowCourseGoes() {
 					className='mb-[40px] xl:mb-[100px] lg:mb-[60px] !leading-normal text-center '
 				/>
 				<div className='flex lg:justify-between justify-evenly flex-wrap'>
-					<div className='w-[300px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[420px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
+					<div className='w-[300px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[320px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
 						<Image
 							src='/telegram-black.png'
 							className='m-auto mb-[20px] w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]'
@@ -23,12 +23,10 @@ export default function HowCourseGoes() {
 							<span className='text-[#e1a421] font-bold mx-[5px]'>
 								закритий Telegram канал
 							</span>
-							предзапису курсу і на тебе буде чекати подарунок. 15 серпня на
-							каналі будуть викладені уроки курсу і ти зможеш пройти їх в
-							зручний час. Також, в закритому каналі буде анонс про mastermind.
+							предзапису курсу і на тебе буде чекати подарунок.
 						</div>
 					</div>
-					<div className='w-[320px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[420px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
+					<div className='w-[320px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[320px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
 						<Image
 							src='/results.png'
 							className='m-auto mb-[20px] w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]'
@@ -37,14 +35,10 @@ export default function HowCourseGoes() {
 							height={74}
 						/>
 						<div>
-							Уроки стислі й без зайвої інформації, щоб ти якнайшвидше отримала
-							результат. Всі запитання
-							<span className='text-[#e1a421] font-bold mx-[5px]'>
-								можна задати мені в особисті повідомлення.
-							</span>
+						Перші два дні інтенсиву я буду ділитися своїм досвідом та методиками  по упаковці продуктів та послуг, які ти зможеш одразу примінити на практиці 
 						</div>
 					</div>
-					<div className='w-[320px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[420px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
+					{/* <div className='w-[320px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[320px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
 						<Image
 							src='/unlimited.png'
 							className='m-auto mb-[20px] w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]'
@@ -58,8 +52,8 @@ export default function HowCourseGoes() {
 								назавжди
 							</span>
 						</div>
-					</div>
-					<div className='w-[320px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[420px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
+					</div> */}
+					<div className='w-[320px] lg:w-[400px] xl:h-[660px] lg:h-[520px] h-[320px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
 						<Image
 							src='/talk.png'
 							className='m-auto mb-[20px] w-[50px] h-[50px] lg:w-[75px] lg:h-[75px]'
@@ -68,11 +62,7 @@ export default function HowCourseGoes() {
 							height={74}
 						/>
 						<div>
-							Наприкінці курсу я запрошу тебе на
-							<span className='text-[#e1a421] font-bold mx-[5px]'>
-								онлайн зустріч зі мною,
-							</span>
-							де розберу упаковку твого продукту або послугу і дам свої рекомендації
+						На третій день інтенсиву буде сесія, на якій я буду розберу кейси і питання учасників
 						</div>
 					</div>
 				</div>

@@ -26,10 +26,10 @@ export default function AboutMe() {
 							Тоді це було вау, бо ми не знали, що це тільки початок і згодом
 							даний курс буде приносити експерту від 700 000 грн на місяць.
 						</div>
-						<div className='mt-[30px] xl:mt-[60px] text-[18px] lg:text-[23px] 2xl:text-[28px] italic'>
+						{/* <div className='mt-[30px] xl:mt-[60px] text-[18px] lg:text-[23px] 2xl:text-[28px] italic'>
 							<span className='text-[#E1A421] mr-[8px]'>Моя міссія</span>
 							допомагати експертам реалізовувати свій потенціал
-						</div>
+						</div> */}
 					</div>
 					<div className='lg:hidden lg:order-none order-1'>
 						<MainTitle

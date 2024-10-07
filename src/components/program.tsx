@@ -14,39 +14,39 @@ const cardsItem = [
 	{
 		title: '1 ',
 		descr:
-			'Як експерту виявити свою супер силу та визначити для себе нішу на напрям',
+			'Як експерту виявити свою супер силу та визначити для себе нішу на напрям. Як сформувати офер, який буде відображати топ результат і вигоди, які отримає ваш клієнт',
 		img: '/power.png',
 		alt: 'power',
 	},
 	{
 		title: '2 ',
-		descr: 'Як сформувати офер, який буде відображати топ результат і вигоди, які отримає ваш клієнт',
+		descr: 'Як упакувати ваш продукт або послугу з урахуванням нового оферу та позиціонування. Як упакувати сторінку та запустити просування',
 		img: '/task.png',
 		alt: 'task',
 	},
+	// {
+	// 	title: '3 ',
+	// 	descr:
+	// 		'Як сформувати позиціонування, яке допоможе відмежуватися від конкурентів та зайняти свою нішу',
+	// 	img: '/niche.png',
+	// 	alt: 'niche',
+	// },
+	// {
+	// 	title: '4 ',
+	// 	descr: 'Як упакувати ваш продукт або послугу з урахуванням нового оферу та позиціонування',
+	// 	img: '/experience.png',
+	// 	alt: 'experience',
+	// },
+	// {
+	// 	title: '5 ',
+	// 	descr:
+	// 		'Як упакувати сторінку та запустити просування',
+	// 	img: '/ppc.png',
+	// 	alt: 'ppc',
+	// },
 	{
-		title: '3 ',
-		descr:
-			'Як сформувати позиціонування, яке допоможе відмежуватися від конкурентів та зайняти свою нішу',
-		img: '/niche.png',
-		alt: 'niche',
-	},
-	{
-		title: '4 ',
-		descr: 'Як упакувати ваш продукт або послугу з урахуванням нового оферу та позиціонування',
-		img: '/experience.png',
-		alt: 'experience',
-	},
-	{
-		title: '5 ',
-		descr:
-			'Як упакувати сторінку та запустити просування',
-		img: '/ppc.png',
-		alt: 'ppc',
-	},
-	{
-		title: '',
-		descr: 'Персональний розбір вашого кейсу на груповій Zoom ceccії ',
+		title: '3',
+		descr: 'Mastermind. Персональний розбір вашого кейсу на груповій Zoom ceccії',
 		img: '/win.png',
 		alt: 'win',
 	},
@@ -62,7 +62,7 @@ export default function Program() {
 						return (
 							<Card
 								key={item.title}
-								className={`m-auto h-[295px] w-[300px] md:h-[350px] md:w-[350px] xl:h-[390px] xl:w-[400px] rounded-[40px] bg-[#e1a421] px-[15px] py-[30px] text-center mx-[5px] my-[10px] justify-between`}
+								className={`m-auto h-[325px] w-[300px] md:h-[360px] md:w-[350px] xl:h-[390px] xl:w-[400px] rounded-[40px] bg-[#e1a421] px-[15px] py-[30px] text-center mx-[5px] my-[10px] justify-between`}
 							>
 								<CardHeader className='p-0 flex flex-row m-auto justify-center items-baseline xl:mb-[20px]'>
 									<CardTitle
@@ -80,9 +80,9 @@ export default function Program() {
 								</CardHeader>
 								<div className='text-[#ffff] text-[26px] md:text-[34px] xl:text-[40px] font-bold'>
 									{' '}
-									{index === 5 ? 'Mastermind' : 'Урок'}{' '}
+									{index === 5 ? 'Mastermind' : 'День'}{' '}
 								</div>
-								<CardDescription className='p-0 text-center text-[18px] md:text-[20px] xl:text-[23px] font-medium leading-[23px] md:leading-[30px] text-[#ffff] mt-[14px] md:mt-[20px]'>
+								<CardDescription className='p-0 text-center text-[16px] xl:text-[21px] font-medium leading-[20px] text-[#ffff] mt-[14px] md:mt-[20px]'>
 									{item.descr}
 								</CardDescription>
 							</Card>

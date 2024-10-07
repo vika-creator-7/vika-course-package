@@ -9,17 +9,17 @@ export default function BuyCourse() {
 			<div className='container flex flex-col lg:flex-row justify-between p-0 items-center lg:items-start'>
 				<div className='max-w-[600px] mr-[20px] items-center lg:items-start flex flex-col'>
 					<MainTitle
-						text='Доєднатись до експрес курсу за'
+						text='Доєднатись до інтенсиву за'
 						className='xl:mb-[60px] lg:mb-[40px] !leading-normal text-center lg:text-start'
 					/>
 					<s className='lg:text-[45px] text-[35px] mt-[30px] xl:mt-[60px] block text-white'>
-						1250 грн
+						1780 грн
 					</s>
 					<div className='lg:text-[70px] text-[50px] xl:text-[100px] text-[#e1a421] font-bold'>
-						280 грн
+						390 грн
 					</div>
 					<ByCourseBtn
-						text='Записатись на курс'
+						text='Записатись на інтенсив'
 						className='py-[20px] px-[15px] lg:px-[30px] mt-[20px] lg:mt-[50px] text-[22px] text-black lg:text-[30px] bg-white hover:bg-[#e1a421]'
 					/>
 				</div>
