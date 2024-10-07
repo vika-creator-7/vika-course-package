@@ -23,7 +23,7 @@ export default function HowCourseGoes() {
 							<span className='text-[#e1a421] font-bold mx-[5px]'>
 								закритий Telegram канал
 							</span>
-							предзапису курсу і на тебе буде чекати подарунок.
+							предзапису і на тебе буде чекати подарунок.
 						</div>
 					</div>
 					<div className='w-[320px] lg:w-[400px] xl:h-[550px] lg:h-[520px] h-[320px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>
