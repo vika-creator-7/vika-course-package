@@ -82,7 +82,7 @@ export default function Program() {
 									{' '}
 									{index === 5 ? 'Mastermind' : 'День'}{' '}
 								</div>
-								<CardDescription className='p-0 text-center text-[16px] xl:text-[21px] font-medium leading-[20px] text-[#ffff] mt-[14px] md:mt-[20px]'>
+								<CardDescription className='p-0 text-center text-[16px] xl:text-[21px] font-medium leading-[22px] text-[#ffff] mt-[14px] md:mt-[20px]'>
 									{item.descr}
 								</CardDescription>
 							</Card>
