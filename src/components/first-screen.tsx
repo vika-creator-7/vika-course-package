@@ -30,7 +30,7 @@ export default function FirstScreen() {
 					ЯК ЕКСПЕРТУ СТВОРИТИ ІНФО ПРОДУКТ І ЗАПУСТИТИ ПРОДАЖІ ЧЕРЕЗ БЛОГ
 				</h2>
 				<div className='sm:text-[23px] text-[18px] xl:text-[30px] my-[20px] max-w-[500px] xl:max-w-[600px]'>
-					покроковий план самозапуску в мікроблозі, без складних воронок і
+					покроковий план самозапуску в блозі, без складних воронок і
 					прогрівів
 				</div>
 				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>

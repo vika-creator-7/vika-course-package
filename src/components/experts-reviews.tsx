@@ -17,7 +17,7 @@ export default function ExpertsReviews() {
 				<h2
 					className={`text-[28px] max-w-[900px] 2xl:max-w-[1400px] sm:text-[36px] xl:text-[46px] 2xl:text-[65px] text-black text-center leading-[46px] font-bold 2xl:leading-[80px] uppercase m-auto mb-[20px] xl:mb-[100px] ${raleway.className}`}
 				>
-					Приклади експертів
+					Кейси експертів
 				</h2>
 
 				<div>
@@ -53,7 +53,7 @@ export default function ExpertsReviews() {
 											<CarouselItem className='rounded-2xl '>
 												<div className='text-white text-[25px] my-[10px]'>
 													<Image
-														src='/experts-reviews-1.jpg'
+														src='/experts-reviews-3.jpg'
 														className='w-[300px] lg:w-[500px]'
 														alt='profile'
 														width={300}
@@ -77,7 +77,7 @@ export default function ExpertsReviews() {
 											<CarouselItem className='rounded-2xl '>
 												<div className='text-white text-[25px] my-[10px]'>
 													<Image
-														src='/experts-reviews-3.jpg'
+														src='/experts-reviews-1.jpg'
 														className='lg:w-[500px]'
 														alt='profile'
 														width={300}
@@ -107,10 +107,10 @@ export default function ExpertsReviews() {
 						</div>
 					</div>
 				</div>
-				<div className='text-[21px] md:text-[24px] lg:text-[30px] mt-[50px] font-bold  text-[#f65f0b] text-center'>
+				{/* <div className='text-[21px] md:text-[24px] lg:text-[30px] mt-[50px] font-bold  text-[#f65f0b] text-center'>
 					МИ ОТРИМАЛИ КРУТІ РЕЗУЛЬТАТИ ЗАВДЯКИ ТОМУ ЩО УПАКУВАЛИ СУПЕР СИЛУ,
 					ІСТОРІЮ І ДОСВІД ЕКСПЕРТА В ЗАТРЕБУВАНИЙ ПРОДУКТ
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)
