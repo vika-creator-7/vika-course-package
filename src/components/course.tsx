@@ -24,8 +24,7 @@ export default function Course() {
 						/>
 						<div className='2xl:text-[30px] lg:text-[26px] text-[20px] lg:max-w-[680px] max-w-[520px] w-[100%] lg:pb-[52px] pb-[35px] pl-[10px]'>
 							{' '}
-							Виявити свої сильні особисті і професійні сторони та знайти свій
-							напрямок
+							Визначити напрям і тему запуску твого майбутнього продукту
 						</div>
 					</div>
 					<div className='flex'>
@@ -38,7 +37,22 @@ export default function Course() {
 						/>
 						<div className='2xl:text-[30px] lg:text-[26px] text-[20px] lg:max-w-[680px] max-w-[520px] w-[100%] lg:pb-[52px] pb-[35px] pl-[10px]'>
 							{' '}
-							Легко доносити клієнтам цінність своїх продуктів і послуг
+							Упакувати свій досвід з затребуваний продукт, заснований на твоїх
+							сильних особистих і професійних сторонах
+						</div>
+					</div>
+
+					<div className='flex'>
+						<Image
+							src='/check-mark.png'
+							width={40}
+							height={40}
+							alt='check-mark'
+							className='lg:h-[40px] lg:w-[40px] h-[30px] w-[30px] mr-[10px] mt-[7px]'
+						/>
+						<div className='2xl:text-[30px] lg:text-[26px] text-[20px] lg:max-w-[680px] max-w-[520px] w-[100%] lg:pb-[52px] pb-[35px] pl-[10px]'>
+							{' '}
+							Зробити самостійно запуск продукту в блозі без додаткових витрат
 						</div>
 					</div>
 					<div className='flex'>
@@ -51,7 +65,8 @@ export default function Course() {
 						/>
 						<div className='2xl:text-[30px] lg:text-[26px] text-[20px] lg:max-w-[680px] max-w-[520px] w-[100%] pl-[10px]'>
 							{' '}
-							Збільшити продажі і прайс на послуги та продукти
+							Заробити перші гроші з продукту (результат буде залежати від твоєї
+							точки А і звісно від прилежності)
 						</div>
 					</div>
 				</div>

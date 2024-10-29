@@ -35,7 +35,7 @@ export default function HowCourseGoes() {
 							height={74}
 						/>
 						<div>
-						Перші два дні інтенсиву я буду ділитися своїм досвідом та методиками  по упаковці продуктів та послуг, які ти зможеш одразу примінити на практиці 
+						Перші два дні інтенсиву я буду ділитися своїм досвідом та дам покроковий план запуску продукту
 						</div>
 					</div>
 					{/* <div className='w-[320px] lg:w-[400px] xl:h-[550px] lg:h-[520px] h-[320px] bg-slate-100 py-[30px] px-[20px] rounded-2xl xl:text-[28px] lg:text-[24px] text-[18px] lg:my-[20px] my-[10px] mx-[5px]'>

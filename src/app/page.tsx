@@ -26,8 +26,8 @@ export default function Home() {
 			<ExpertsReviews />
 			<Reviews />
 			<HowCourseGoes />
-			<Faq />
 			<CourseFor />
+			<Faq />
 			<BuyCourse />
 			<Footer />
 			<Popup />

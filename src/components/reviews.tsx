@@ -18,7 +18,7 @@ export default function Reviews() {
 		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container flex flex-col items-center p-0'>
 				<MainTitle
-					text='Результати клієнтів'
+					text='ВІДГУКИ'
 					className='text-center mb-[50px] lg:mb-[100px]'
 				/>
 				<div>

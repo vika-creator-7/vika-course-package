@@ -12,17 +12,18 @@ export default function CourseFor() {
 				<div className='flex justify-center m-auto flex-wrap'>
 					<div className='flex flex-col mx-[7px] md:mt-[20px] mt-[15px]'>
 						<div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421] px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] mb-[15px] h-[200px]'>
-							- які хочуть розкласти весь досвід по поличках і упакувати в
-							затребуваний продукт або послугу;
+							- які багато консультують і працюють з клієнтами і хочуть
+							запустити свій продукт, щоб збільшити дохід і мати більше вільного
+							часу
 						</div>
 						<div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] h-[200px]'>
-							- які хочуть масштабуватися за рахунок запусків нових продуктів і
-							послуг;
+							- {`які мають ідеї продукту, але вони "лежать в столі" і не
+							розуміють, як все структурувати і упакувати в продукт`}
 						</div>
 					</div>
 					<div className='flex flex-col md:mt-[20px] mt-[15px] mx-[7px]'>
 						<div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] mb-[15px] h-[200px]'>
-							- які хочуть підняти прайс на послуги
+							- які мають готовий продукт, але не розуміють, як його упакувати/переупакувати і запустити
 						</div>
 						{/* <div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] mb-[15px] h-[200px]'>
 							- для власників консалтингових компаній, які хочуть перейти в

@@ -9,19 +9,20 @@ export default function AboutMe() {
 					<div className='2xl:max-w-[760px] lg:max-w-[450px] xl:max-w-[580px] flex flex-col lg:order-none order-3'>
 						<div className='lg:flex hidden flex-col'>
 							<MainTitle
-								text='Мене звати Віка Мірча,'
+								text='МЕНЕ ЗВАТИ ВІКА МІРЧА, Я ПРОДЮСЕРКА ТА МЕНТОРКА ЕКСПЕРТІВ'
 								className='text-[#E1A421] mb-[30px]'
 							/>
-							<div className='2xl:text-[42px] text-[28px] xl:text-[32px] font-bold uppercase leading-[35px] xl:leading-[45px]'>
+							{/* <div className='2xl:text-[42px] text-[28px] xl:text-[32px] font-bold uppercase leading-[35px] xl:leading-[45px]'>
 								Я продюсерка та менторка експертів{' '}
-							</div>
+							</div> */}
 						</div>
 						<div className='lg:mt-[40px] text-[18px] lg:text-[23px] 2xl:text-[28px]'>
-							Я займаюся продюсуванням 3 роки. Працювала з різними нішами і
-							експертами. Памятаю свій перший кейс, ми з партнером переупакували
-							курс і з першого вібінару
+							Більше 3 років я займаюся продюсуванням експертів і онлайн шкіл.
+							Більше року менторю і навчаю експертів робити запуски продуктів і
+							послуг на автентичності і без складних воронок і прогрівів.
+							Пам'ятаю свій перший кейс, коли ми з першого запуску
 							<span className='text-[#E1A421] ml-[5px]'>
-								зробили запуск на $5000 + з нуля.
+								зробили чистими $5000+ .
 							</span>{' '}
 							Тоді це було вау, бо ми не знали, що це тільки початок і згодом
 							даний курс буде приносити експерту від 700 000 грн на місяць.

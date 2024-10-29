@@ -1,12 +1,7 @@
 import MainTitle from '@/components/main-title'
-import {
-	Card,
-	CardDescription,
-	CardHeader,
-	CardTitle,
-} from './ui/card'
 import { Raleway } from 'next/font/google'
 import Image from 'next/image'
+import { Card, CardDescription, CardHeader, CardTitle } from './ui/card'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -14,13 +9,14 @@ const cardsItem = [
 	{
 		title: '1 ',
 		descr:
-			'Як експерту виявити свою супер силу та визначити для себе нішу на напрям. Як сформувати офер, який буде відображати топ результат і вигоди, які отримає ваш клієнт',
+			'Як експерту виявити свої сильні сторони і визначити тему і напрям запуску. Як упакувати свій досвід і знання в затребуваний продукт',
 		img: '/power.png',
 		alt: 'power',
 	},
 	{
 		title: '2 ',
-		descr: 'Як упакувати ваш продукт або послугу з урахуванням нового оферу та позиціонування. Як упакувати сторінку та запустити просування',
+		descr:
+			'Покроковий план запуску інфо продукту: як вибрати формат запуску, технічна сторона запуску, бюджет запуску, модель простої воронки',
 		img: '/task.png',
 		alt: 'task',
 	},
@@ -46,7 +42,8 @@ const cardsItem = [
 	// },
 	{
 		title: '3',
-		descr: 'Mastermind. Персональний розбір вашого кейсу на груповій Zoom ceccії',
+		descr:
+			'Mastermind. Персональний розбір вашого кейсу на груповій Zoom ceccії',
 		img: '/win.png',
 		alt: 'win',
 	},
@@ -56,7 +53,10 @@ export default function Program() {
 	return (
 		<section className='py-[50px] lg:py-[80px] 2xl:py-[100px] px-[20px] lg:px-[60px] '>
 			<div className='container p-0'>
-				<MainTitle text='Програма' className='text-center mb-[50px] lg:mb-[100px]' />
+				<MainTitle
+					text='Програма'
+					className='text-center mb-[50px] lg:mb-[100px]'
+				/>
 				<div className='flex justify-evenly flex-wrap '>
 					{cardsItem.map((item, index) => {
 						return (

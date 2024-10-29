@@ -16,17 +16,26 @@ export default function FirstScreen() {
 			</div>
 			<div className='lg:w-[650px] xl:w-[800px] justify-end text-white order-1 lg:order-none '>
 				<div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
-					Старт 29 жовтня
+					Старт 11 листопада
 				</div>
-				<MainTitle text='3 ДЕННИЙ ІНТЕНСИВ' className='text-[#E1A421] mb-[10px]' />
+				<MainTitle
+					text='3 ДЕННИЙ ІНТЕНСИВ'
+					className='text-[#E1A421]'
+				/>
+				<MainTitle
+					text='по самопродюсуванню'
+					className='text-[#E1A421] mb-[10px] text-[22px] lowercase'
+				/>
 				<h2 className='2xl:leading-[52px] leading-[35px] xl:leading-[50px] text-[23px] sm:text-[32px] xl:text-[40px] 2xl:text-[46px] uppercase font-bold'>
-					Як експерту створити продаючу упаковку під свої продукти та послуги?
+					ЯК ЕКСПЕРТУ СТВОРИТИ ІНФО ПРОДУКТ І ЗАПУСТИТИ ПРОДАЖІ ЧЕРЕЗ БЛОГ
 				</h2>
 				<div className='sm:text-[23px] text-[18px] xl:text-[30px] my-[20px] max-w-[500px] xl:max-w-[600px]'>
-					6 кроків, які допоможуть тобі донести цінність твоїх продуктів та
-					послуг і збільшити продажі
+					покроковий план самозапуску в мікроблозі, без складних воронок і
+					прогрівів
 				</div>
-				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>1780 грн</s>
+				<s className='lg:text-[45px] text-[30px] mt-[30px] xl:mt-[60px] block'>
+					1780 грн
+				</s>
 				<div className=' lg:text-[70px] text-[38px] text-[#e1a421] font-bold'>
 					390 грн
 				</div>
