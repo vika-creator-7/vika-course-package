@@ -17,13 +17,13 @@ export default function CourseFor() {
 							часу
 						</div>
 						<div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] h-[200px]'>
-							- {`які мають ідеї продукту, але вони "лежать в столі" і не
-							розуміють, як все структурувати і упакувати в продукт`}
+							-{' '}
+							які мають багато ідей, але не розуміють, як все структурувати і упакувати в продукт
 						</div>
 					</div>
 					<div className='flex flex-col md:mt-[20px] mt-[15px] mx-[7px]'>
 						<div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] mb-[15px] h-[200px]'>
-							- які мають готовий продукт, але не розуміють, як його упакувати/переупакувати і запустити
+							- які мають готовий продукт, але не розуміють, як його запустити і почати заробляти 
 						</div>
 						{/* <div className='xl:w-[550px] md:w-[450px] w-[320px] bg-[#e1a421]  px-[20px] py-[10px] rounded-2xl xl:text-[28px] md:text-[24px] text-[20px] mb-[15px] h-[200px]'>
 							- для власників консалтингових компаній, які хочуть перейти в
