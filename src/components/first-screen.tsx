@@ -16,7 +16,7 @@ export default function FirstScreen() {
 			</div>
 			<div className='lg:w-[650px] xl:w-[800px] justify-end text-white order-1 lg:order-none '>
 				<div className='text-[22px] sm:text-[28px] xl:text-[35px] mb-[40px] font-bold '>
-					Старт 11 листопада
+					Старт 18 листопада
 				</div>
 				<MainTitle
 					text='3 ДЕННИЙ ІНТЕНСИВ'
